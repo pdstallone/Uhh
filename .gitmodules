@@ -1,0 +1,3 @@
+[submodule "FreeSpeech-cpp"]
+	path = FreeSpeech-cpp
+	url = git@github.com:IDWMaster/FreeSpeech-cpp.git
