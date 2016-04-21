@@ -5,6 +5,9 @@
 #include <arpa/inet.h>
 #include <fcntl.h>
 #include <string.h>
+
+void* RSA_GenKey_C(size_t bits);
+
 int main(int argc, char** argv) {
   int listenfd = socket(PF_INET,SOCK_STREAM,IPPROTO_TCP);
   
